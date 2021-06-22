@@ -13,7 +13,7 @@ interface ButtonIconProps {
   title: string;
 }
 
-export function ButtonIcon({ title } : ButtonIconProps) {
+export function ButtonIcon({ title }: ButtonIconProps) {
   return (
     <TouchableOpacity style={styles.container} activeOpacity={0.7} >
       <View style={styles.iconWrapper}>
